@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FrameLock - Ageing TimeLapse | CmDarri</title>
+<meta name="description" content="FrameLock - Ageing TimeLapse is an Android app that turns a sequence of photos into a locked-off timelapse using AI eye detection, SIFT object tracking or full manual alignment, exported up to 4K.">
+<meta name="author" content="CmDarri">
+<meta name="theme-color" content="#0a0b0d">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CmDarri">
+<meta property="og:title" content="FrameLock - Ageing TimeLapse | CmDarri">
+<meta property="og:description" content="Image stabilisation for photo timelapses, using eye detection, object tracking or manual alignment.">
+<meta property="og:image" content="../assets/img/apps/framelock/icon.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script>document.documentElement.className += ' js'; window.CMDARRI_BASE = '../';</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "FrameLock - Ageing TimeLapse",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "Android",
+  "description": "Image stabilisation for timelapses, using eye detection, object tracking or manual alignment.",
+  "publisher": { "@type": "Organization", "name": "CmDarri" }
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="../index.html" class="brand">
+      <span class="brand-name">CmDarri</span>
+      <span class="brand-sub">Software Development</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="../index.html">Home</a>
+      <a href="../apps.html" aria-current="page">Apps</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+      <a href="../privacy.html">Privacy</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="mobileNav" class="mobile-nav" aria-label="Mobile">
+    <a href="../index.html">Home</a>
+    <a href="../apps.html" aria-current="page">Apps</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../privacy.html">Privacy</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="detail-hero">
+    <div class="wrap">
+      <p class="crumbs">
+        <a href="../index.html">CmDarri</a><span class="sep">/</span>
+        <a href="../apps.html">Apps</a><span class="sep">/</span>
+        FrameLock - Ageing TimeLapse
+      </p>
+
+      <div class="detail-head">
+        <img class="app-icon" src="../assets/img/apps/framelock/icon.png"
+             alt="FrameLock - Ageing TimeLapse app icon" width="96" height="96">
+        <div>
+          <div class="badge-row">
+            <span class="badge badge-live">Published</span>
+            <span class="badge">Android</span>
+            <span class="badge">com.vaitns.framelock</span>
+          </div>
+          <h1>FrameLock - Ageing TimeLapse</h1>
+          <p class="card-tagline">Photo-sequence timelapse stabiliser</p>
+          <p class="card-short">
+            Image stabilisation for timelapses, using eye detection, object
+            tracking or manual alignment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap detail-body">
+
+      <div>
+        <p class="eyebrow">Overview</p>
+        <h2 style="font-size:clamp(22px,2.8vw,28px);margin-bottom:16px">What it does</h2>
+        <div class="prose-block" style="margin-bottom:44px">
+          <p>
+            FrameLock aligns sequences of photographs rather than stabilising
+            shaky video. Choose a reference frame and it rotates, scales and pans
+            every other image to match &mdash; locking onto eyes, onto an object
+            you pick, or under manual control &mdash; then renders the result at
+            up to 4K.
+          </p>
+          <p>
+            Standard video stabilisers assume the input is a moving camera. A
+            photo sequence is a different problem: the frames may have been taken
+            days, weeks or years apart, from slightly different positions, in
+            different light. FrameLock matches on specific features &mdash; eye
+            positions, or the keypoints of one chosen object &mdash; instead of
+            generic motion, which is what makes the ageing timelapse case work.
+          </p>
+          <p>
+            It suits photo-a-day projects, locked-on object videos, travel and
+            landmark sequences, and documenting the growth of children or pets.
+          </p>
+        </div>
+
+        <p class="eyebrow">Stabilisation modes</p>
+        <h2 style="font-size:clamp(22px,2.8vw,28px);margin-bottom:22px">Three ways to lock on</h2>
+        <ul class="feature-list" style="margin-bottom:44px">
+          <li class="feature">
+            <span class="feature-num">01</span>
+            <h3>Ageing Timelapse &mdash; AI face lock</h3>
+            <p>Facial landmark detection identifies eye positions and aligns each image to the reference face. If the wrong person is picked in a crowded shot, the tracked face can be re-selected manually.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-num">02</span>
+            <h3>Select Object &mdash; auto-tracking</h3>
+            <p>SIFT feature matching fingerprints the selected object and locates it in every following frame, even when lighting or surroundings change. A custom region of interest narrows the match to exactly what matters.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-num">03</span>
+            <h3>Full Manual alignment</h3>
+            <p>A virtual D-pad gives precise panning, fine rotation and incremental scaling, with a difference blend overlay that highlights misalignment in real time until the matching areas turn black.</p>
+          </li>
+        </ul>
+
+        <p class="eyebrow">Features</p>
+        <h2 style="font-size:clamp(22px,2.8vw,28px);margin-bottom:22px">Output and project handling</h2>
+        <ul class="feature-list" style="margin-bottom:44px">
+          <li class="feature">
+            <span class="feature-num">04</span>
+            <h3>4K export quality</h3>
+            <p>Render the finished timelapse in 4K, Full HD, or the original photo resolution.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-num">05</span>
+            <h3>Custom frame rates</h3>
+            <p>Choose anything from a slow, cinematic 1 FPS up to 60 FPS, or enter a custom value up to 240 FPS for ultra-smooth playback.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-num">06</span>
+            <h3>Background and aspect control</h3>
+            <p>Fill the frame with solid black, a blurred-edge look, or transparency for further editing, and export at 16:9, 4:3, or the original photo ratio.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-num">07</span>
+            <h3>Project management</h3>
+            <p>Track several timelapses at once, with a dashboard showing the day streak and total frame count for each project. Import whole folders in bulk or pick individual photos.</p>
+          </li>
+        </ul>
+
+        <p class="eyebrow">Screenshots</p>
+        <h2 style="font-size:clamp(22px,2.8vw,28px);margin-bottom:6px">In the app</h2>
+        <p class="strip-hint" style="margin-bottom:8px">Swipe or scroll the strip to see more</p>
+        <div class="shot-strip tall">
+          <figure class="shot">
+            <span class="shot-corner tl"></span><span class="shot-corner br"></span>
+            <img src="../assets/img/apps/framelock/shot-01.jpg"
+                 alt="Mode selection screen offering Ageing Timelapse, Select Object and Full Manual."
+                 width="230" height="512" loading="lazy" decoding="async">
+            <figcaption>Choose Mode &mdash; ageing timelapse, select object, or full manual</figcaption>
+          </figure>
+          <figure class="shot">
+            <span class="shot-corner tl"></span><span class="shot-corner br"></span>
+            <img src="../assets/img/apps/framelock/shot-02.jpg"
+                 alt="Reference settings screen with pan, zoom and rotation readouts and a virtual D-pad."
+                 width="230" height="512" loading="lazy" decoding="async">
+            <figcaption>Reference settings &mdash; drag to pan, pinch to zoom, plus D-pad, zoom and rotation controls</figcaption>
+          </figure>
+          <figure class="shot">
+            <span class="shot-corner tl"></span><span class="shot-corner br"></span>
+            <img src="../assets/img/apps/framelock/shot-03.jpg"
+                 alt="Image picker with a per-frame options sheet offering restabilize, manual stabilize, stabilize other face, set as reference and delete frame."
+                 width="230" height="512" loading="lazy" decoding="async">
+            <figcaption>Per-frame options &mdash; restabilise, manual stabilise, track another face, set as reference</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <aside class="detail-aside">
+        <div class="aside-block">
+          <h2>Get the app</h2>
+          <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.vaitns.framelock" target="_blank" rel="noopener">Get it on Google Play</a>
+          <p class="aside-note">
+            Published on Google Play as
+            <span class="mono">com.vaitns.framelock</span>.
+          </p>
+        </div>
+
+        <div class="aside-block">
+          <h2>Details</h2>
+          <ul class="spec-list">
+            <li><span class="k">Status</span><span class="v">Published</span></li>
+            <li><span class="k">Platform</span><span class="v">Android</span></li>
+            <li><span class="k">Package</span><span class="v mono">com.vaitns.framelock</span></li>
+            <li><span class="k">Category</span><span class="v">Multimedia</span></li>
+            <li><span class="k">Processing</span><span class="v">On device</span></li>
+            <li><span class="k">Export</span><span class="v">Up to 4K</span></li>
+            <li><span class="k">Frame rate</span><span class="v">1&ndash;240 FPS</span></li>
+          </ul>
+        </div>
+
+        <div class="aside-block">
+          <h2>Privacy</h2>
+          <a class="stack-link" href="../privacy/framelock.html">Privacy policy &rarr;</a>
+          <a class="stack-link" href="../privacy.html">All CmDarri policies</a>
+          <p class="aside-note">
+            Eye detection, object tracking and image stabilisation are all
+            performed locally on the device. The app uses no analytics or
+            tracking systems and transmits no data to external servers.
+          </p>
+        </div>
+
+        <div class="aside-block">
+          <h2>Also from CmDarri</h2>
+          <a class="stack-link" href="bulk-vid-to-mp3.html">Bulk Vid to MP3 Converter Free</a>
+          <a class="stack-link" href="offline-ai.html">CmDarri - Offline AI</a>
+          <a class="stack-link" href="../apps.html">All applications</a>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">CmDarri</span>
+        <p>Software Development<br>Founded by VaiTns</p>
+      </div>
+      <div class="footer-col">
+        <h2>Navigate</h2>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../apps.html">Apps</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Contact</h2>
+        <ul>
+          <li><a class="mono" href="mailto:kcskab47@gmail.com">kcskab47@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-row">
+      <p>&copy; <span data-year>2026</span> CmDarri. All rights reserved.</p>
+      <p>Quality software and applications at affordable prices.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../data/config.js"></script>
+<script src="../data/apps.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
